@@ -88,4 +88,13 @@ The dashboard is designed to provide an interactive experience, allowing users t
 - **Sales by Outlet Type**: The table visual displays the number of items, item visibility, total sales, and average sales across different outlet types, offering a detailed comparison.
 
 ## Conclusion
-The analysis of the Blinkit dataset involved thorough data cleaning, exploratory data analysis, and the development of a predictive model to forecast product sales. The Power BI dashboard provides an interactive platform to visualize and explore the data, offering valuable insights to stakeholders. The model achieved an accuracy of **0.6976**, and the report highlighted areas for potential improvement, such as enhancing the model's ability to predict regular-fat items.
+The analysis of the Blinkit dataset involved thorough data cleaning, exploratory data analysis, and the development of a predictive model to forecast product sales. The Power BI dashboard provides an interactive platform to visualize and explore the data, offering valuable insights to stakeholders. The model achieved an accuracy of **0.815**, and the report highlighted areas for potential improvement, such as enhancing the model's ability to predict regular-fat items.
+
+## Files info
+
+1. Power_BI_Project_Blinkit_final.ipynb - The main file which includes the code from Data cleaning to Model Predictions.
+2. Blinkit_Dashboard_Project.pbix - The main dashboard file using Power BI.
+3. blinkit_data.xlsx - The dataset file (inside the dataset folder) using which the whole project has been developed.
+4. Pickel files - the pickel files to deploy the model using streamlit library.
+5. images folder - The folder that contains the images used in Power BI to build the dashboard.
+
