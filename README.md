@@ -46,16 +46,16 @@ The Blinkit dataset includes the following fields:
 
 ## Machine Learning Model Development
 ### Model Selection
-- A **RandomForestClassifier** was chosen for predicting the **Item_Fat_Content** based on features related to the items and outlets.
+- A **XGBClassifier** was chosen for predicting the **Item_Fat_Content** based on features related to the items and outlets. We choose the best model from 4 models i.e., Logistic, Random Forest, XGB and SVC.
 
 ### Model Training and Evaluation
 - The dataset was split into training and testing sets, and the model was trained using the training set.
-- The model achieved an accuracy of **0.6976** on the test set.
+- The model achieved an accuracy of **0.815** on the test set.
 - The performance metrics, including precision, recall, and F1-score, were calculated. The model performed well in identifying low-fat products but had lower precision in predicting regular-fat items.
 - A confusion matrix was generated to evaluate the classification performance across both classes.
 
 ### ROC Curve Analysis
-- The Receiver Operating Characteristic (ROC) curve was plotted to visualize the model's ability to distinguish between the two classes. The area under the ROC curve (AUC) was updated to **0.73**, indicating moderate accuracy of the model.
+- The Receiver Operating Characteristic (ROC) curve was plotted to visualize the model's ability to distinguish between the two classes. The area under the ROC curve (AUC) was updated to **0.89**, indicating very good accuracy of the model.
 
 ### Model Saving
 - The trained model and the list of features were saved using **pickle** for future deployment in a Streamlit application.
